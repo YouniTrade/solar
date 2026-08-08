@@ -1,4 +1,8 @@
 name: "Solar System"
+env:
+  MONGO_URI: "some-mongo-uri"
+  MONGO_USER: "some-mongo-user"
+  MONGO_PASSWORD: "some-mongo-password"
 on:
   push:
     branches:
